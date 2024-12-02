@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 기존 head 내용 유지 -->
+    <style>
+        /* 모달 공통 스타일 */
+        .modal-content {
+            border: none;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+        }
+        
+        .modal-header {
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+            padding: 1.5rem 2rem;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 16px 16px 0 0;
+        }
+        
+        .modal-title {
+            font-weight: 600;
+            font-size: 1.25rem;
+            color: #333;
+        }
+        
+        .btn-close {
+            opacity: 0.7;
+            transition: all 0.2s ease;
+        }
+        
+        .btn-close:hover {
+            opacity: 1;
+            transform: rotate(90deg);
+        }
+        
+        .modal-body {
+            padding: 2rem;
+        }
+        
+        .modal-body p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        
+        .modal-footer {
+            border-top: 1px solid rgba(0,0,0,0.1);
+            padding: 1.5rem 2rem;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 0 0 16px 16px;
+        }
+        
+        /* 폼 요소 스타일 */
+        .form-select {
+            border-radius: 8px;
+            border: 1px solid rgba(0,0,0,0.1);
+            padding: 0.75rem 1rem;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .form-select:focus {
+            border-color: #007AFF;
+            box-shadow: 0 0 0 3px rgba(0,122,255,0.1);
+        }
+        
+        /* 버튼 스타일 */
+        .btn {
+            padding: 0.7rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background: #007AFF;
+            border: none;
+        }
+        
+        .btn-primary:hover {
+            background: #0056b3;
+            transform: translateY(-1px);
+        }
+        
+        .btn-secondary {
+            background: #f1f1f1;
+            border: none;
+            color: #333;
+        }
+        
+        .btn-secondary:hover {
+            background: #e1e1e1;
+            transform: translateY(-1px);
+        }
+
+        /* 모달 트랜지션 효과 */
+        .modal.fade .modal-dialog {
+            transition: transform 0.3s ease-out;
+        }
+        
+        .modal.show .modal-dialog {
+            transform: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- 나머지 body 내용 유지 -->
+</body>
+</html>

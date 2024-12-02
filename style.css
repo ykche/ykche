@@ -1,0 +1,62 @@
+.vertical-lr {
+    writing-mode: vertical-lr;
+}
+
+
+.modal-content {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.modal-header {
+    border-bottom: none;
+    padding: 2rem 2rem 1rem;
+}
+
+.modal-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.modal-body {
+    padding: 1rem 2rem;
+}
+
+.modal-footer {
+    border-top: none;
+    padding: 1rem 2rem 2rem;
+}
+
+.btn-custom {
+    padding: 0.6rem 2rem;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-custom-primary {
+    background-color: #007AFF;
+    border: none;
+}
+
+.btn-custom-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-1px);
+}
+
+.btn-custom-light {
+    background-color: #f8f9fa;
+    color: #212529;
+    border: 1px solid #dee2e6;
+}
+
+.btn-custom-light:hover {
+    background-color: #e9ecef;
+    transform: translateY(-1px);
+}
+
+.modal-description {
+    color: #6c757d;
+    line-height: 1.6;
+}        
